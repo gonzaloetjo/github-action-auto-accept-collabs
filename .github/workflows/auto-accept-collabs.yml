@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Fetching Local Repository
         uses: actions/checkout@master
-      - name: Auto Accept Collabs
+      - name: Auto Accept Collabss
         uses: kbrashears5/github-action-auto-accept-collabs@v2.0.0
         with:
           TOKEN: ${{ secrets.ACTIONS }}
